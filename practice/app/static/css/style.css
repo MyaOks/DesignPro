@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.design_pro_inner_header {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.design_pro_inner_header > h1 {
+    font-size: 80px;
+}
+
+.navigation {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #033E6B;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation > a {
+    color: white;
+    font-size: 30px;
+}
+
+.navigation > a:hover {
+    color: #24a7ff;
+}
+
+.navigation > div {
+    display:flex;
+    gap: 40px;
+}
+
+.navigation > div > a {
+    color: white;
+    font-size: 30px;
+}
+
+.navigation > div > a:hover {
+    color: #24a7ff;
+}
+
+.design_pro_inner_content > div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 50px;
+}
+
+.design_pro_inner_content > div:first-child > h2 {
+    font-size: 90px;
+}
+
+.design_pro_inner_content > div:first-child > span {
+    font-size: 50px;
+    text-align: center;
+}
+
+.design_pro_inner_content > div:first-child > button{
+    background-color: #033E6B;
+    color: white;
+    height: 5vh;
+    width: 15%;
+    border: none;
+    border-radius: 10%;
+    font-size: 20px;
+}
+
+.design_pro_inner_content > div:first-child > button:hover {
+    color: #24a7ff;
+}
+
+.design_pro_inner_content > div:last-child {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design_pro_inner_content > div:last-child > div:first-child {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design_pro_inner_content > div:last-child > div:first-child > h2 {
+    font-size: 50px;
+}
+
+.design_pro_inner_content > div:last-child > div:first-child > span {
+    font-size: 30px;
+}
+
+.design_pro_inner_content > div:last-child > div:last-child {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.registration {
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.registration > a {
+     color: black;
+}
+
+.registration > a:hover {
+     color: #24a7ff;
+}
+
+.registration > input:last-child:hover{
+    color: #24a7ff;
+}
+
+
+.form {
+    margin-top: 15%;
+}
+
+.form > input:nth-child(3) {
+    background-color: #033E6B;
+    color: white;
+    width: 15%;
+    border: none;
+}
+
+.form > input:nth-child(3):hover {
+    color: #24a7ff;
+}
+
